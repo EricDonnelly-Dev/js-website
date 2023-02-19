@@ -1,0 +1,25 @@
+:root{
+    --bg: #fff;
+    --bg-panel:#fff;
+    --clr-headings:#161c2d;
+    --clr-text-opacity:rgba(22,28,45,0.7);
+    --clr-primary-text:#161c2d;
+    --clr-primary-base:#161c2d;
+    --border:#383f53;
+}
+
+[data-theme="light"] .hero-background{
+    background-image: url("../assets/img/hero-pattern.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+[data-theme="dark"] {
+    --bg: #171a23;
+    --bg-panel:#f1f1f1;
+    --clr-headings:#fff;
+    --clr-text-opacity:rgba(255,255,255,0.7);
+    --clr-primary-text:#fff;
+    --clr-primary-base:#161c2d;
+    --border:#ced4da;
+}
