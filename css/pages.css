@@ -1,3 +1,26 @@
 .page-block{
     background: var(--bg);
 }
+#about .modal-body {
+    margin-top: 5rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+
+}
+#about .about-modal-text {
+    flex: 1;
+}
+#about .modal-img-wrapper {
+    text-align: center;
+    flex: 1;
+    max-width: initial;
+    margin-right: initial;
+}
+#about .modal-img-wrapper img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+#about .about-modal-text p,
+#about .about-modal-text .contact-me {
+    font-size: 1.2rem;
+}
